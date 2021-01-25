@@ -1,3 +1,5 @@
+Created 4/2020
+
 Simple Grovery shopping. Initially a Salad maker.
 
 Needs to be refactored for that (by me not students)
@@ -17,3 +19,4 @@ TO DO: Not critical for Context example but for students to add
 5. Show quantity desired.
 
 NOTE: Available at nusoftva.com/context-grocery-store
+
