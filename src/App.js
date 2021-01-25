@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React ,{useContext} from 'react'
+import Navigation from './components/Navigation.js'
+import SaladMaker from './components/SaladMaker'
+
+
+import UserContext from './components/UserContext'
+import UserState from './components/UserState'
+
+
+
 
 function App() {
+  // const user = useContext(UserContext)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  
+    <UserState>
+ 
+      <Navigation/>
+      <SaladMaker/> 
+
+    </UserState>
+  )
 }
 
-export default App;
+export default App
