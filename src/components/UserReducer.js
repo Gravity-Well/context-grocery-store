@@ -10,8 +10,7 @@ const UserReducer = (state,action) =>{
     switch(action.type){
         case SIGNIN:
           
-            console.log(state)
-            console.log(action.payload)
+           
           
             return {
                name:action.payload.name,
@@ -20,8 +19,7 @@ const UserReducer = (state,action) =>{
             }
         case SIGNOUT:
           
-                console.log(state)
-                console.log(action.payload)
+              
               
                 return {
                    name:action.payload.name,
@@ -30,8 +28,7 @@ const UserReducer = (state,action) =>{
                 }
         case ADD_FAV:
            
-            console.log(state)
-            console.log(action.payload)
+           
             
             return {
                 ...state,
